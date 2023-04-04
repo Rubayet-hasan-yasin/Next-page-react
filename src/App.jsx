@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { Outlet } from 'react-router-dom'
 import Header from './conponents/Header/Header'
+import Footer from './conponents/Footer/Footer'
 
 
 
@@ -13,6 +14,8 @@ function App() {
       <Header />
 
       <Outlet />
+
+      <Footer />
     </div>
   )
 }

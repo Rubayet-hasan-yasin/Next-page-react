@@ -1,6 +1,5 @@
 import React from 'react';
 import { ShoppingCartIcon } from '@heroicons/react/24/solid'
-import './Home.css'
 import Lottie from "lottie-react";
 import education from '../../assets/animation.json';
 import { Link } from 'react-router-dom';

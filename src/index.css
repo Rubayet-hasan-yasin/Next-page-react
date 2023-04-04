@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.badge {
+    @apply uppercase bg-yellow-400 inline px-3 py-1 rounded-2xl font-semibold
+}

@@ -17,12 +17,12 @@ const Header = () => {
                 </button>
             </div>
 
-            <ul className={`${istrue && 'top-1'} sm:flex duration-1000 relative -top-52 sm:top-0 pl-10 mt-6 shadow-2xl sm:space-x-8 text-xl font-bold`}>
+            <ul className={`${istrue && 'top-1'} sm:flex duration-1000 relative -top-52 sm:top-0 pl-10 mt-6 shadow-2xl sm:space-x-8 text-xl`}>
                 <li>
                     <NavLink
                         to='/'
                         title='Home link'
-                        className={({ isActive }) => isActive ? 'text-blue-800' : ''}
+                        className={({ isActive }) => isActive ? 'active' : 'default'}
                     >
                         Home
 
@@ -32,7 +32,7 @@ const Header = () => {
                     <NavLink
                         to='books'
                         title='Books link'
-                        className={({ isActive }) => isActive ? 'text-blue-800' : ''}
+                        className={({ isActive }) => isActive ? 'active' : 'default'}
                     >
                         Books
 
@@ -43,7 +43,7 @@ const Header = () => {
                     <NavLink
                         to='about'
                         title='About'
-                        className={({ isActive }) => isActive ? 'text-blue-800' : ''}
+                        className={({ isActive }) => isActive ? 'active' : 'default'}
                     >
                         About
 

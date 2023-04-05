@@ -6,3 +6,12 @@
 .badge {
     @apply uppercase bg-yellow-400 inline px-3 py-1 rounded-2xl font-semibold
 }
+
+.active{
+    @apply font-bold tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-400
+  }
+
+
+  .default{
+    @apply font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400
+  }
